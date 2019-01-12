@@ -1,0 +1,18 @@
+body {
+background-image: url(kong_skull_island_2017_movie_4k-5120x2880.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+h1 {
+	text-align: center;
+	margin-top: 300px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 4em;
+	color: brown;
+}
+
+.btn-danger {
+	margin-top: -10px;
+	text-align: center;
+}
