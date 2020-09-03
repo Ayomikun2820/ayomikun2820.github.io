@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HOMEPAGE</title>
+	<title>MY FIRST WEBSITE</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </head>
 <body>
-	<h1>KONG: THE MOVIE</h1>
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	  <a class="navbar-brand" href="#">Navigate</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Link</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Dropdown
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    	</form>
+	  </div>
+	</nav>
+	<div class="jumbotron">
+	  <h1 class="display-4">Hey There,</h1>
+	  <p class="lead"> As usual I’m awake at midnight and can’t get any sleep (didn’t really try to), so I just decided to brush up on my skills by trying to make a website on my own but, I didn’t really have any idea or concept for my website. And then it hit me. There’s this girl I’m really crazy for and kinda know a handful about so I decided to create a website about her. Plus, she recently told me she’s interested in blogging so I thought maybe if I made this website about her, hopefully, she would hire me to be her web developer / manager (she shouldn’t even think she could use her toasting skills to toast her way out of paying me my money ooo). And even though this website isn’t that great yet, by the time she’s ready to start blogging, I’d have definately gotten a lot better and I would make her a world class blog. So, here goes… (Fingers crossed)</p>
+	  <hr class="my-4">
+	  <p class="loyl">LOYL❤.</p>
+	</div>
 
-	<!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://twitter.us20.list-manage.com/subscribe/post?u=e414cad21fe3639e346ae4322&amp;id=1a9131f7c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e414cad21fe3639e346ae4322_1a9131f7c6" tabindex="-1" value=""></div>
-    <center><div class="clear"><input class="btn btn-danger" type="submit" value="Stream" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div></center>
-</form>
-</div>
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	  HELP?
+	</button>
 
-<!--End mc_embed_signup-->
-	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- <!-- <!-- Modal -->
+	<p>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"   		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Hey amateur, need  help navigating?</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        Tap the navigate bar at the top part of the screen to navigate through the website. <br> Hehehe. Wink <br>Some of the links dont work though because i have no content to put into them.
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			       <!--  <button type="button" class="btn btn-primary">Save changes</button> -->
+			      </div>
+		    </div>
+		  </div>
+		</div>
+	</p>
+
+	
+	<footer class="footer"> © <br> The Mikun Enterprise <br>Ibrahim Ayomikun</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>

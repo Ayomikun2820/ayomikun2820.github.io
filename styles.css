@@ -1,18 +1,27 @@
-body {
-background-image: url(kong_skull_island_2017_movie_4k-5120x2880.jpg);
-background-position: center;
-background-attachment: fixed;
-background-size: cover;
-}
-h1 {
-	text-align: center;
-	margin-top: 300px;
-	font-family: 'Slabo 27px', serif;
-	font-size: 4em;
-	color: brown;
+.display-4 {
+	font-family: sans-serif;
+	color: rgba(0, 0, 225, 0.5);
 }
 
-.btn-danger {
-	margin-top: -10px;
+body {
+	background-color: white;
+	color: black;
+}
+
+.jumbotron {
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+
+.loyl {
+	text-align: right;
+}
+
+footer {
+	background-color: darkcyan;
+}
+
+.footer {
 	text-align: center;
+	margin-top: 50px
 }
